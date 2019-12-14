@@ -1,0 +1,50 @@
+Zadania lekcja 12
+
+1)
+Napisz wyrażenie regularne które będzie akceptować format numeru w postaci: +48-123-123-123
+W tym celu zbuduj odpowiednie struktury ( klasa, metoda itp)
+Przetestuj swój kod na kilku przykładach:
+
+48123123123
++48123123123
+0048123123123
++00123456789
+
+2)
+Zbuduj wyrażenie sprawdzające czy adres strony www jest właściwy.
+
+Prawidlowy adres ma następującą składnie :
+
+http://nazwa_strony.domena
+https://nazwa_strony.domena
+
+http:// - wyrażenie musi obsługiwać przykład z http oraz https
+nazwa strony - moze zawierac jedynie litery i cyfry
+domena - litery
+
+3)
+Napisz wyrażenie które stosując Matcher i Pattern znajdzie i ilosć wystąpień słowa "and"
+w poniższym tekście:
+
+"Bicycle, also called bike, two-wheeled steerable machine that is pedaled by the rider’s feet. On a standard bicycle the wheels are mounted in-line in a metal frame,
+with the front wheel held in a rotatable fork. The rider sits on a saddle and steers by leaning and turning handlebars that are attached to the fork.
+The feet turn pedals attached to cranks and a chainwheel. Power is transmitted by a loop of chain connecting the chainwheel to a sprocket on the rear wheel.
+Riding is easily mastered, and bikes can be ridden with little effort at 16–24 km (10–15 miles) per hour—about four to five times the pace of walking.
+The bicycle is the most efficient means yet devised to convert human energy into mobility.
+
+Bicycles are widely used for transportation, recreation, and sport (see cycling). Throughout the world,
+bicycles are essential to moving people and goods in areas where there are few automobiles. Globally,
+there are twice as many bicycles as automobiles, and they outsell automobiles three to one. The Netherlands,
+Denmark, and Japan actively promote bicycles for shopping and commuting. In the United States, bike paths have been
+constructed in many parts of the country, and bicycles are encouraged by the United States government as an alternative to automobiles."
+
+
+4)
+Napisz wyrażenie regularne z którego pomocą (stosująć grupy) wypiszesz wyszystkie informacje dla każdej z książęk w
+następującym formacie:
+
+Autor Nazwa Ksiazki, TYP, Rok, Cena
+
+"Everyday Italian" is a COOKING book written by Giada De Laurentiis in 2005. It costs 30.00
+"Harry Potter" is a CHILDREN book written by J K. Rowling in 2005. It costs 29.99
+"Learning XML" is a WEB book written by Erik T. Ray in 2005. It costs 39.95
